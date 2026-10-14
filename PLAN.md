@@ -50,10 +50,6 @@ Candidatos. Cada uno tiene que pasar la misma prueba: **¿se puede explicar en u
 - [ ] Si SNCAD o una universidad responde: diseñar el piloto de IA para docentes de una provincia con un modelo abierto en cómputo público.
 - [ ] Medir uso real y costo por usuario, y publicar los resultados acá. Es el dato que falta para que el Decreto 002 deje de ser una estimación.
 
-## Opcional — Video
-
-- [ ] Short de 30 segundos por decreto: la imagen, la voz del personaje leyendo la frase y la cuenta, y el link. Sin capítulo completo.
-
 ---
 
 ## Riesgos y cómo se cuidan
