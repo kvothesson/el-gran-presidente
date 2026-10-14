@@ -18,7 +18,7 @@
 | Acceso a la información pública (Ley 27.275) | Existe: el art. 4 se puede pedir hoy |
 | Exigir energía propia y métricas verdes a data centers | Antecedentes en Irlanda y Singapur |
 | Cómputo público para ciencia y startups | Antecedente en las AI Factories de la UE (EuroHPC) |
-| Reserva de cómputo como condición del beneficio | Brasil (REDATA): al menos 10% para el mercado local y energía 100% renovable. Chile (Plan Nacional de Data Centers 2024-2030): cómputo reservado para universidades y startups |
+| Reserva de cómputo como condición del beneficio | Brasil (REDATA, aprobado por el Congreso en sep 2026, a sanción): al menos 10% del procesamiento para el mercado local, o una inversión equivalente en I+D, y energía renovable o de baja emisión. Chile (Plan Nacional de Data Centers 2024-2030): meta de acordar acceso prioritario a cómputo para universidades y centros de investigación, sin acuerdo firmado conocido |
 | Cuota de cómputo, metas de empleo, cláusula de cumplimiento | **Propuesta de este decreto** |
 
 ## 1. Problema
@@ -67,7 +67,7 @@ En personas, que se entiende mejor:
 ## 5. Por qué no espanta la inversión
 
 - **Los costos son acotados.** Ceder entre el 2% y el 5% de la capacidad a precio de costo pesa poco frente a beneficios fiscales de 30 años.
-- **Las condiciones ya son estándar en otros países.** Brasil exige reservar al menos 10% del procesamiento para el mercado local; esta propuesta pide menos. Varios condicionan permisos de data centers a la energía nueva y a reportar agua y energía. Las empresas ya lo miden para sus reportes ESG.
+- **Las condiciones ya son estándar en otros países.** El REDATA de Brasil, aprobado por su Congreso, pide reservar al menos 10% del procesamiento para el mercado local; esta propuesta pide menos. Varios condicionan permisos de data centers a la energía nueva y a reportar agua y energía. Las empresas ya lo miden para sus reportes ESG.
 - **El talento local les baja costos.** A la empresa le conviene operar con ingenieros formados en la zona.
 - **La previsibilidad vale más que el subsidio.** Reglas claras y estables, fijadas antes de la inversión, son justamente lo que los especialistas señalan como el déficit argentino.
 
@@ -79,7 +79,7 @@ En personas, que se entiende mejor:
 
 ## 7. Preguntas abiertas
 
-1. ¿Qué porcentaje de cómputo cedido es razonable antes de que afecte la decisión de inversión? Brasil pide al menos 10%; acá se propone entre 2% y 5%.
+1. ¿Qué porcentaje de cómputo cedido es razonable antes de que afecte la decisión de inversión? El REDATA de Brasil pide al menos 10%; acá se propone entre 2% y 5%.
 2. ¿Quién asigna el cómputo soberano sin que se politice? Una opción es un comité científico con convocatoria pública y resultados abiertos.
 3. ¿Cómo se mide el agua en diseños con enfriamiento por aire, típicos de climas fríos?
 4. ¿Las metas de empleo deben ser obligatorias o un bonus en el beneficio?
@@ -92,6 +92,9 @@ En personas, que se entiende mejor:
 - [Súper RIGI y data centers — iProfesional](https://www.iprofesional.com/tecnologia/457187-como-argentina-se-puede-transformar-en-un-megacentro-de-datos-a-traves-del-super-rigi)
 - [¿Nuevo campo digital u otra economía de enclave? — El Economista](https://eleconomista.com.ar/economia/argentina-frente-boom-data-centers-nuevo-campo-digital-u-otra-economia-enclave-n94044)
 - [El Súper RIGI, REDATA (Brasil) y el plan de Chile — Fundar](https://fund.ar/publicacion/el-super-rigi/)
+- [Beneficios y contrapartidas del REDATA — Capital Aberto](https://legislacaoemercados.capitalaberto.com.br/os-beneficios-e-as-contrapartidas-previstos-pelo-redata/)
+- [El Senado de Brasil aprueba el REDATA — DPL News](https://dplnews.com/?p=328771)
+- [Plan Nacional de Data Centers 2024-2030 — Carey](https://www.carey.cl/lanzamiento-del-plan-nacional-de-data-centers-2024-2030)
 - [Argentina en la carrera de los data centers — El Observador](https://www.elobservador.com.uy/argentina/economia-y-negocios/argentina-frente-la-carrera-global-los-data-centers-ventajas-y-desafios-atraer-inversiones-ia-n6053040)
 
 **Pendiente de verificar antes de publicar:** estado actual del Súper RIGI en el Congreso y si Stargate Argentina se presentó formalmente al RIGI.
