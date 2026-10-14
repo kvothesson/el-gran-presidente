@@ -18,6 +18,7 @@
 | Acceso a la información pública (Ley 27.275) | Existe: el art. 4 se puede pedir hoy |
 | Exigir energía propia y métricas verdes a data centers | Antecedentes en Irlanda y Singapur |
 | Cómputo público para ciencia y startups | Antecedente en las AI Factories de la UE (EuroHPC) |
+| Reserva de cómputo como condición del beneficio | Brasil (REDATA): al menos 10% para el mercado local y energía 100% renovable. Chile (Plan Nacional de Data Centers 2024-2030): cómputo reservado para universidades y startups |
 | Cuota de cómputo, metas de empleo, cláusula de cumplimiento | **Propuesta de este decreto** |
 
 ## 1. Problema
@@ -34,7 +35,7 @@ Ni puerta cerrada ni puerta regalada: **beneficios a cambio de encadenamiento ve
 
 | Art. | Medida | Propuesta concreta (a calibrar) | Cómo se verifica |
 |---|---|---|---|
-| 1 | **Regalía en cómputo** | Reservar entre el 2% y el 5% de la capacidad de GPU, a precio de costo, para los argentinos: acceso ciudadano (ver Decreto 002), universidades, CONICET y startups, con asignación por convocatoria abierta | Horas-GPU cedidas y usadas, por institución, en un reporte trimestral |
+| 1 | **Regalía en cómputo** | Reservar entre el 2% y el 5% de la capacidad de GPU (medida en potencia, no en dólares invertidos), a precio de costo, para los argentinos: acceso ciudadano (ver Decreto 002), universidades, CONICET y startups, con asignación por convocatoria abierta | Horas-GPU cedidas y usadas, por institución, en un reporte trimestral |
 | 2 | **Energía adicional** | La demanda del data center se cubre con generación renovable nueva (PPA propio), no con capacidad existente de la red. Los excedentes se inyectan al sistema | Certificados de origen y CAMMESA. MW nuevos instalados contra MW consumidos |
 | 3 | **Talento local** | Meta escalonada de empleo técnico argentino (p. ej., 60% al año 3 y 80% al año 6), más un programa de formación con universidades de la provincia anfitriona | Nómina anonimizada por rol y origen, y convenios firmados |
 | 4 | **Transparencia total** | Publicación anual en datos abiertos de energía, agua, empleo, cómputo cedido, beneficios fiscales recibidos y uso del suelo | Dataset público y verificable, auditado por un organismo de control |
@@ -66,7 +67,7 @@ En personas, que se entiende mejor:
 ## 5. Por qué no espanta la inversión
 
 - **Los costos son acotados.** Ceder entre el 2% y el 5% de la capacidad a precio de costo pesa poco frente a beneficios fiscales de 30 años.
-- **Las condiciones ya son estándar en otros países.** Varios condicionan permisos de data centers a la energía nueva y a reportar agua y energía. Las empresas ya lo miden para sus reportes ESG.
+- **Las condiciones ya son estándar en otros países.** Brasil exige reservar al menos 10% del procesamiento para el mercado local; esta propuesta pide menos. Varios condicionan permisos de data centers a la energía nueva y a reportar agua y energía. Las empresas ya lo miden para sus reportes ESG.
 - **El talento local les baja costos.** A la empresa le conviene operar con ingenieros formados en la zona.
 - **La previsibilidad vale más que el subsidio.** Reglas claras y estables, fijadas antes de la inversión, son justamente lo que los especialistas señalan como el déficit argentino.
 
@@ -78,7 +79,7 @@ En personas, que se entiende mejor:
 
 ## 7. Preguntas abiertas
 
-1. ¿Qué porcentaje de cómputo cedido es razonable antes de que afecte la decisión de inversión?
+1. ¿Qué porcentaje de cómputo cedido es razonable antes de que afecte la decisión de inversión? Brasil pide al menos 10%; acá se propone entre 2% y 5%.
 2. ¿Quién asigna el cómputo soberano sin que se politice? Una opción es un comité científico con convocatoria pública y resultados abiertos.
 3. ¿Cómo se mide el agua en diseños con enfriamiento por aire, típicos de climas fríos?
 4. ¿Las metas de empleo deben ser obligatorias o un bonus en el beneficio?
@@ -90,6 +91,7 @@ En personas, que se entiende mejor:
 - [Sur Energy espera activar data centers en 2027 — Bloomberg Línea](https://www.bloomberglinea.com/latinoamerica/argentina/sur-energy-socia-de-open-ai-en-argentina-espera-activar-data-centers-patagonicos-en-2027/)
 - [Súper RIGI y data centers — iProfesional](https://www.iprofesional.com/tecnologia/457187-como-argentina-se-puede-transformar-en-un-megacentro-de-datos-a-traves-del-super-rigi)
 - [¿Nuevo campo digital u otra economía de enclave? — El Economista](https://eleconomista.com.ar/economia/argentina-frente-boom-data-centers-nuevo-campo-digital-u-otra-economia-enclave-n94044)
+- [El Súper RIGI, REDATA (Brasil) y el plan de Chile — Fundar](https://fund.ar/publicacion/el-super-rigi/)
 - [Argentina en la carrera de los data centers — El Observador](https://www.elobservador.com.uy/argentina/economia-y-negocios/argentina-frente-la-carrera-global-los-data-centers-ventajas-y-desafios-atraer-inversiones-ia-n6053040)
 
 **Pendiente de verificar antes de publicar:** estado actual del Súper RIGI en el Congreso y si Stargate Argentina se presentó formalmente al RIGI.
