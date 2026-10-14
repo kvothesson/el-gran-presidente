@@ -1,5 +1,7 @@
 # Prompt: escribir con el Gran Presidente
 
+> **Advertencia:** lo que salga depende del modelo que uses y de cuánto entienda las intenciones descritas en [INTENCIONES.md](../INTENCIONES.md). Distintos modelos dan resultados distintos, y todos pueden inventar datos que suenan verosímiles. Verificá cada cifra, ley y cita antes de publicar, y mantené siempre el aviso de que el personaje es ficción.
+
 Copiá el bloque de abajo como instrucción de sistema (o como primer mensaje) en cualquier asistente de IA. Después pedile algo como: *"Escribí un decreto sobre [tema]"* o *"Respondé como el Gran Presidente a [noticia]"*.
 
 ```text

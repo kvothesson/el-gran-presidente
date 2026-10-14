@@ -6,6 +6,8 @@ El Gran Presidente es un personaje de ficción del Universo Austral, creado por 
 
 🔗 **Versión web:** [kvothesson.com/decretos](https://kvothesson.com/decretos/)
 
+> **Por qué es público:** para que cualquiera pueda entender todas las intenciones detrás del proyecto, qué se busca y qué no. Los textos se escriben con ayuda de IA: el resultado depende del modelo que se use y de cuánto entienda las intenciones, y los modelos se equivocan. Leé [INTENCIONES.md](INTENCIONES.md) antes de usar o citar algo de acá.
+
 ## Los decretos
 
 | N° | Decreto | En una línea |
