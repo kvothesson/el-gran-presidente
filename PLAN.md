@@ -16,13 +16,13 @@
 
 ## Fase 1 — Lanzamiento (semanas del 14 y 21 de octubre)
 
-- [ ] Crear una casilla de contacto de Kvothesson para recibir respuestas.
-- [ ] Verificar el estado del Súper RIGI en el Senado y actualizar la web si cambió.
+- [x] Crear una casilla de contacto de Kvothesson (contacto@kvothesson.com). Los mails aclaran que no hace falta responder: las correcciones van a los [issues](../../issues).
+- [x] Verificar el estado del Súper RIGI en el Senado: al 7/10/2026, media sanción en Diputados y sin dictamen en el Senado. Revisar de nuevo antes de cada envío.
 - [ ] Publicar en la pestaña Comunidad del canal de YouTube (es la audiencia que ya existe).
 - [ ] Publicar en X con imagen ([difusion/redes.md](difusion/redes.md)).
 - [ ] Post en Reddit (r/argentina, r/devsarg) pidiendo que critiquen la cuenta.
-- [ ] Mails a Fundar y Chequeado pidiendo revisión de la cuenta.
-- [ ] Mails a periodistas que cubrieron el Súper RIGI (uno por día, personalizados).
+- [ ] Mails a Fundar y Chequeado pidiendo revisión de la cuenta. *(En curso: primer envío hecho el 14/10/2026).*
+- [ ] Mails a periodistas que cubrieron el Súper RIGI: personalizados, de a uno o dos por día, después de dar unos días a la revisión de la cuenta. A quién y cuándo no se publica, para no exponer a nadie que no lo pidió.
 
 ## Fase 2 — Llegar a quien decide (noviembre)
 
