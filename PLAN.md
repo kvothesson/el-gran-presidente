@@ -21,7 +21,7 @@
 - [ ] Publicar en la pestaña Comunidad del canal de YouTube (es la audiencia que ya existe).
 - [ ] Publicar en X con imagen ([difusion/redes.md](difusion/redes.md)).
 - [ ] Post en Reddit (r/argentina, r/devsarg) pidiendo que critiquen la cuenta.
-- [ ] Mails a Fundar y Chequeado pidiendo revisión de la cuenta. *(En curso: primer envío hecho el 14/10/2026).*
+- [x] Mails a Fundar y Chequeado pidiendo revisión de la cuenta. *(Enviados el 14/10 y el 21/10/2026).*
 - [ ] Mails a periodistas que cubrieron el Súper RIGI: personalizados, de a uno o dos por día, después de dar unos días a la revisión de la cuenta. A quién y cuándo no se publica, para no exponer a nadie que no lo pidió.
 
 ## Fase 2 — Llegar a quien decide (noviembre)
