@@ -1,6 +1,6 @@
 # Mails: plantillas
 
-Link: https://kvothesson.com/decretos/
+Link: https://kvothesson.com/el-gran-presidente/
 
 ## Antes de mandar
 
@@ -33,7 +33,7 @@ Link: https://kvothesson.com/decretos/
 >
 > Hice la cuenta. El 5% de un solo data center del tamaño de Stargate Argentina alcanza, en el escenario conservador, para que unos 13 millones de argentinos usen IA todos los días sin costo. En el optimista alcanza para toda la población. No requiere presupuesto público.
 >
-> La propuesta completa, con los supuestos, los antecedentes de otros países y las fuentes, está acá: https://kvothesson.com/decretos/
+> La propuesta completa, con los supuestos, los antecedentes de otros países y las fuentes, está acá: https://kvothesson.com/el-gran-presidente/
 >
 > Aclaración: Kvothesson es un seudónimo y "El Gran Presidente" es un personaje de mi canal de YouTube. La propuesta es real y está abierta a que la critiquen o la mejoren.
 >
@@ -90,7 +90,7 @@ Link: https://kvothesson.com/decretos/
 > >
 > > *Artículo Y. Los Vehículos de Proyecto Único mencionados en el artículo anterior publicarán anualmente, en formato de datos abiertos, su consumo de energía y agua, el empleo generado y la capacidad de cómputo cedida en los términos del artículo X.*
 >
-> El detalle, la estimación de impacto y los antecedentes internacionales (Irlanda, India, Unión Europea) están en: https://kvothesson.com/decretos/
+> El detalle, la estimación de impacto y los antecedentes internacionales (Irlanda, India, Unión Europea) están en: https://kvothesson.com/el-gran-presidente/
 >
 > Quedo a disposición para cualquier consulta.
 >
@@ -112,7 +112,7 @@ Link: https://kvothesson.com/decretos/
 >
 > La propuesta es correr un modelo de IA abierto en cómputo público, como Clementina XXI o los clusters universitarios, y ofrecerlo como asistente a los docentes de una provincia o de una universidad durante unos meses. El objetivo es medir la demanda real y el costo por usuario.
 >
-> Ese dato hoy no existe en Argentina, y es la pieza que falta para discutir en serio si el país puede darle IA a sus ciudadanos con su propio cómputo. Es parte de una propuesta más amplia sobre regalías en cómputo para los data centers que lleguen con el Súper RIGI: https://kvothesson.com/decretos/
+> Ese dato hoy no existe en Argentina, y es la pieza que falta para discutir en serio si el país puede darle IA a sus ciudadanos con su propio cómputo. Es parte de una propuesta más amplia sobre regalías en cómputo para los data centers que lleguen con el Súper RIGI: https://kvothesson.com/el-gran-presidente/
 >
 > No pido nada más que su opinión: ¿es viable técnicamente? ¿Qué haría falta?
 >

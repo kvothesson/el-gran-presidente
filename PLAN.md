@@ -10,7 +10,7 @@
 
 - [x] Decreto 001 "El frío se cobra" y Decreto 002 "La biblioteca infinita": guion y programa técnico.
 - [x] Investigación verificada: Súper RIGI, RIGI, Stargate Argentina, antecedentes internacionales y cómputo público.
-- [x] Web pública e indexable: [kvothesson.com/decretos](https://kvothesson.com/decretos/), con vista previa para redes.
+- [x] Web pública e indexable: [kvothesson.com/el-gran-presidente](https://kvothesson.com/el-gran-presidente/), con vista previa para redes.
 - [x] Imagen para redes y post corto.
 - [x] Este repo público.
 

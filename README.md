@@ -4,7 +4,7 @@
 
 El Gran Presidente es un personaje de ficción del Universo Austral, creado por Kvothesson para YouTube. Este repo es la parte que no es ficción: decretos con propuestas concretas, números, supuestos explícitos y fuentes, abiertos para que cualquiera los lea, los critique, los use o escriba los suyos.
 
-🔗 **Versión web:** [kvothesson.com/decretos](https://kvothesson.com/decretos/)
+🔗 **Versión web:** [kvothesson.com/el-gran-presidente](https://kvothesson.com/el-gran-presidente/)
 
 > **Por qué es público:** para que cualquiera pueda entender todas las intenciones detrás del proyecto, qué se busca y qué no. Los textos se escriben con ayuda de IA: el resultado depende del modelo que se use y de cuánto entienda las intenciones, y los modelos se equivocan. Leé [INTENCIONES.md](INTENCIONES.md) antes de usar o citar algo de acá.
 

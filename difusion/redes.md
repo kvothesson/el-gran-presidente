@@ -11,7 +11,7 @@ El que usa nuestro frío para hacer funcionar IA, ¿por qué no?
 5% de un solo data center alcanza para que millones de argentinos usen IA gratis cada día.
 
 La cuenta y las fuentes 👇
-kvothesson.com/decretos
+kvothesson.com/el-gran-presidente
 ```
 
 ## Reddit (r/argentina, r/devsarg)
@@ -27,7 +27,7 @@ La cuenta (supuestos en el link): ese 5% alcanza para que entre 13 y 87 millones
 
 ¿Qué supuesto está mal? Lo corrijo y lo publico.
 
-kvothesson.com/decretos
+kvothesson.com/el-gran-presidente
 (Es un proyecto de divulgación con un personaje de ficción; las propuestas son reales).
 ```
 
@@ -36,5 +36,5 @@ kvothesson.com/decretos
 Una respuesta distinta por hilo, nunca el mismo texto repetido. Fórmula: una frase sobre la noticia + la idea en una línea + link.
 
 ```text
-Si el Súper RIGI les da 30 años de beneficios, que paguen regalías como el petróleo: en cómputo. Con el 5% de un data center, millones de argentinos podrían usar IA gratis. La cuenta: kvothesson.com/decretos
+Si el Súper RIGI les da 30 años de beneficios, que paguen regalías como el petróleo: en cómputo. Con el 5% de un data center, millones de argentinos podrían usar IA gratis. La cuenta: kvothesson.com/el-gran-presidente
 ```

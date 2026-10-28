@@ -1,7 +1,9 @@
-"""Arma decretos/index.html para kvothesson.com a partir de decretos.html (formato artifact).
+"""Arma la web de Los Decretos (index.html + og.png) a partir de decretos.html (formato artifact).
 
-Uso: python build_site.py <ruta al clon de kvothesson/kvothesson.github.io>
-Después: commit con el mail noreply de Kvothesson y push.
+Uso: python web/build_site.py <directorio de salida>
+Escribe index.html y og.png directamente en ese directorio. El workflow
+.github/workflows/pages.yml lo corre con `_site` y publica el resultado en
+GitHub Pages: https://kvothesson.com/el-gran-presidente/
 """
 import re
 import shutil
@@ -9,7 +11,7 @@ import sys
 from pathlib import Path
 
 HERE = Path(__file__).parent
-URL = "https://kvothesson.com/decretos/"
+URL = "https://kvothesson.com/el-gran-presidente/"
 DESC = ("Dos propuestas abiertas para Argentina: regalías en cómputo por los data centers de IA "
         "e inteligencia artificial de uso diario para cada ciudadano. Firma: Kvothesson.")
 
@@ -33,7 +35,7 @@ meta = f"""<meta charset="utf-8">
 <meta name="twitter:image" content="{URL}og.png">
 """
 out = f'<!doctype html>\n<html lang="es">\n<head>\n{meta}{head}\nbody{{margin:0}}\n</style>\n</head>\n<body>{body}\n</body>\n</html>\n'
-(site / "decretos").mkdir(exist_ok=True)
-(site / "decretos" / "index.html").write_text(out, encoding="utf-8", newline="\n")
-shutil.copy(HERE / "og_1200x630.png", site / "decretos" / "og.png")
-print("ok:", site / "decretos")
+site.mkdir(parents=True, exist_ok=True)
+(site / "index.html").write_text(out, encoding="utf-8", newline="\n")
+shutil.copy(HERE / "og_1200x630.png", site / "og.png")
+print("ok:", site)
