@@ -18,7 +18,7 @@
 | Acceso a la información pública (Ley 27.275) | Existe: el art. 4 se puede pedir hoy |
 | Exigir energía propia y métricas verdes a data centers | Antecedentes en Irlanda y Singapur |
 | Cómputo público para ciencia y startups | Antecedente en las AI Factories de la UE (EuroHPC) |
-| Reserva de cómputo como condición del beneficio | Brasil (REDATA, aprobado por el Congreso en sep 2026, a sanción): al menos 10% del procesamiento para el mercado local, o una inversión equivalente en I+D, y energía renovable o de baja emisión. Chile (Plan Nacional de Data Centers 2024-2030): meta de acordar acceso prioritario a cómputo para universidades y centros de investigación, sin acuerdo firmado conocido |
+| Reserva de cómputo como condición del beneficio | Brasil (REDATA, Ley 15.504/2026, promulgada el 15/9/2026 sin vetos; falta su reglamentación): al menos 10% del procesamiento para el mercado local, o una inversión equivalente en I+D, y energía renovable o de baja emisión. Chile (Plan Nacional de Data Centers 2024-2030): meta de acordar acceso prioritario a cómputo para universidades y centros de investigación, sin acuerdo firmado conocido |
 | Cuota de cómputo, metas de empleo, cláusula de cumplimiento | **Propuesta de este decreto** |
 
 ## 1. Problema
@@ -67,7 +67,7 @@ En personas, que se entiende mejor:
 ## 5. Por qué no espanta la inversión
 
 - **Los costos son acotados.** Ceder entre el 2% y el 5% de la capacidad a precio de costo pesa poco frente a beneficios fiscales de 30 años.
-- **Las condiciones ya son estándar en otros países.** El REDATA de Brasil, aprobado por su Congreso, pide reservar al menos 10% del procesamiento para el mercado local; esta propuesta pide menos. Varios condicionan permisos de data centers a la energía nueva y a reportar agua y energía. Las empresas ya lo miden para sus reportes ESG.
+- **Las condiciones ya son estándar en otros países.** El REDATA de Brasil, ya ley, pide reservar al menos 10% del procesamiento para el mercado local; esta propuesta pide menos. Varios condicionan permisos de data centers a la energía nueva y a reportar agua y energía. Las empresas ya lo miden para sus reportes ESG.
 - **El talento local les baja costos.** A la empresa le conviene operar con ingenieros formados en la zona.
 - **La previsibilidad vale más que el subsidio.** Reglas claras y estables, fijadas antes de la inversión, son justamente lo que los especialistas señalan como el déficit argentino.
 
@@ -94,6 +94,7 @@ En personas, que se entiende mejor:
 - [El Súper RIGI, REDATA (Brasil) y el plan de Chile — Fundar](https://fund.ar/publicacion/el-super-rigi/)
 - [Beneficios y contrapartidas del REDATA — Capital Aberto](https://legislacaoemercados.capitalaberto.com.br/os-beneficios-e-as-contrapartidas-previstos-pelo-redata/)
 - [El Senado de Brasil aprueba el REDATA — DPL News](https://dplnews.com/?p=328771)
+- [El REDATA se promulga como Ley 15.504/2026 — Mattos Filho](https://www.mattosfilho.com.br/en/unico/special-tax-regime-data-center/)
 - [Plan Nacional de Data Centers 2024-2030 — Carey](https://www.carey.cl/lanzamiento-del-plan-nacional-de-data-centers-2024-2030)
 - [Argentina en la carrera de los data centers — El Observador](https://www.elobservador.com.uy/argentina/economia-y-negocios/argentina-frente-la-carrera-global-los-data-centers-ventajas-y-desafios-atraer-inversiones-ia-n6053040)
 

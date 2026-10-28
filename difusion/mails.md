@@ -56,7 +56,7 @@ Link: https://kvothesson.com/el-gran-presidente/
 >
 > La cuenta que más me interesa que revisen: el 5% de un data center de 500 MW alcanzaría para que entre 13 y 87 millones de personas usen IA por día, según cuánto rinda cada chip. Los supuestos están explicitados en la página.
 >
-> https://kvothesson.com/decretos/
+> https://kvothesson.com/el-gran-presidente/
 >
 > Si encuentran un error, lo corrijo y lo publico con la corrección.
 >

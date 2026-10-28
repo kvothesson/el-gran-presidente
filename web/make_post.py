@@ -89,7 +89,7 @@ def post():
     y = bars(d, M, y + 110, tw, 1.3)
 
     d.line((M, H - 150, W - M, H - 150), fill=FG, width=2)
-    d.text((M, H - 120), "kvothesson.com/decretos", font=font("bahnschrift.ttf", 44, bold=True), fill=ICE)
+    d.text((M, H - 120), "kvothesson.com/el-gran-presidente", font=font("bahnschrift.ttf", 44, bold=True), fill=ICE)
     d.text((M, H - 62), "La cuenta, los supuestos y las fuentes. Sin presupuesto público.",
            font=font("georgia.ttf", 24), fill=MUTED)
     im.save(OUT / "post_1080x1350.png")
@@ -110,7 +110,7 @@ def og():
     d.text((left + 40, 100), "5% de un data center =", font=font("georgia.ttf", 26), fill=FG)
     d.text((left + 40, 136), "millones de personas usando IA por día", font=font("consola.ttf", 17), fill=MUTED)
     bars(d, left + 40, 186, W - left - 40 - M, 0.8)
-    d.text((M, H - 74), "kvothesson.com/decretos", font=font("bahnschrift.ttf", 34, bold=True), fill=ICE)
+    d.text((M, H - 74), "kvothesson.com/el-gran-presidente", font=font("bahnschrift.ttf", 34, bold=True), fill=ICE)
     im.save(OUT / "og_1200x630.png")
 
 
