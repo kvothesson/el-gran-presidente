@@ -1,48 +1,32 @@
 <title>Los Decretos del Gran Presidente</title>
 <meta name="description" content="Dos propuestas abiertas: regalías en cómputo por los data centers en Argentina e IA de uso diario para cada ciudadano. Firma: Kvothesson.">
+<link rel="stylesheet" href="marca.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=JetBrains+Mono:wght@400;600&display=swap">
 <style>
 /* Layout: una sola columna de lectura, como un decreto impreso; la cuenta es la única pieza visual. Frío (glaciar) computa, calor (ámbar) recuerda. */
+/* Colores, fuentes de títulos y números: marca del taller (marca.css, generado por marca/generar.py; no editar a mano).
+   Excepción escrita: el texto corrido va en serif porque es un documento para leer, y hielo y ámbar conviven para contar la cuenta. */
 :root {
-  --bg: #eef3f5;
-  --surface: #ffffff;
-  --fg: #0f1b22;
-  --muted: #4d6270;
-  --line: #c9d6dd;
-  --ice: #17708f;
-  --ice-soft: #d6e9f0;
-  --amber: #b4660f;
-  --amber-soft: #f6e4cc;
-  --display: "Bricolage Grotesque", "Arial Narrow", system-ui, sans-serif;
   --body: "Source Serif 4", Georgia, "Times New Roman", serif;
-  --mono: "JetBrains Mono", ui-monospace, Consolas, monospace;
-}
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
-    --bg: #0b141a; --surface: #111e26; --fg: #dbe7ec; --muted: #8fa6b2; --line: #24363f;
-    --ice: #6cc1dd; --ice-soft: #16323e; --amber: #e6a24c; --amber-soft: #3a2a14; color-scheme: dark;
-  }
-}
-:root[data-theme="dark"] {
-  --bg: #0b141a; --surface: #111e26; --fg: #dbe7ec; --muted: #8fa6b2; --line: #24363f;
-  --ice: #6cc1dd; --ice-soft: #16323e; --amber: #e6a24c; --amber-soft: #3a2a14; color-scheme: dark;
+  --ice-soft: color-mix(in oklab, var(--ice) 16%, var(--ground));
+  --amber-soft: color-mix(in oklab, var(--amber) 18%, var(--ground));
 }
 
 * { box-sizing: border-box; }
 body {
-  background: var(--bg); color: var(--fg);
+  background: var(--ground); color: var(--ink);
   font-family: var(--body); font-size: 1.0625rem; line-height: 1.6;
   padding-inline: 20px; padding-block: 0 64px;
 }
 .wrap { max-width: 44rem; margin-inline: auto; display: grid; gap: 4.5rem; }
-h1, h2, h3 { font-family: var(--display); line-height: 1.08; text-wrap: balance; margin: 0; }
+h1, h2, h3 { font-family: var(--font-display); line-height: 1.08; text-wrap: balance; margin: 0; }
 p { margin: 0; }
-a { color: var(--ice); text-underline-offset: 3px; }
-a:focus-visible { outline: 2px solid var(--amber); outline-offset: 2px; }
+a { color: var(--accent); text-underline-offset: 3px; }
+a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 .label {
-  font-family: var(--mono); font-size: .75rem; letter-spacing: .12em; text-transform: uppercase; color: var(--muted);
+  font-family: var(--font-mono); font-size: .75rem; letter-spacing: .12em; text-transform: uppercase; color: var(--muted);
 }
 
 /* Encabezado */
@@ -51,14 +35,14 @@ header h1 { font-size: clamp(2.4rem, 7vw, 3.75rem); font-weight: 800; letter-spa
 .lede { font-size: 1.2rem; color: var(--muted); max-width: 36rem; }
 .thesis {
   border-left: 4px solid var(--amber); padding: .25rem 0 .25rem 1.1rem;
-  font-family: var(--display); font-weight: 500; font-size: clamp(1.3rem, 3.6vw, 1.65rem); line-height: 1.3; text-wrap: balance;
+  font-family: var(--font-display); font-weight: 500; font-size: clamp(1.3rem, 3.6vw, 1.65rem); line-height: 1.3; text-wrap: balance;
 }
 .thesis strong { color: var(--ice); font-weight: 700; }
-.toc { display: flex; flex-wrap: wrap; gap: .5rem 1.25rem; font-family: var(--mono); font-size: .85rem; }
+.toc { display: flex; flex-wrap: wrap; gap: .5rem 1.25rem; font-family: var(--font-mono); font-size: .85rem; }
 
 /* Decretos */
 .decree { display: grid; gap: 1.75rem; }
-.decree-head { display: grid; gap: .6rem; border-top: 2px solid var(--fg); padding-top: 1.25rem; }
+.decree-head { display: grid; gap: .6rem; border-top: 2px solid var(--ink); padding-top: 1.25rem; }
 .decree-head h2 { font-size: clamp(1.9rem, 5.5vw, 2.6rem); font-weight: 800; }
 .oneline { font-size: 1.2rem; font-style: italic; }
 .why { color: var(--muted); }
@@ -68,25 +52,25 @@ ol.articles li {
   padding-bottom: 1.1rem; border-bottom: 1px solid var(--line);
 }
 ol.articles li::before {
-  content: "Art. " counter(art); font-family: var(--mono); font-size: .8rem; color: var(--ice); font-weight: 600;
+  content: "Art. " counter(art); font-family: var(--font-mono); font-size: .8rem; color: var(--ice); font-weight: 600;
 }
 ol.articles h3 { font-size: 1.15rem; font-weight: 700; margin-bottom: .2rem; }
-ol.articles p { color: var(--fg); }
+ol.articles p { color: var(--ink); }
 
 /* La cuenta */
 .calc { background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: 1.5rem; display: grid; gap: 1.25rem; }
 .calc h3 { font-size: 1.3rem; }
 .bars { display: grid; gap: .9rem; }
 .bar-row { display: grid; gap: .35rem; }
-.bar-label { display: flex; justify-content: space-between; gap: 1rem; flex-wrap: wrap; font-family: var(--mono); font-size: .8rem; font-variant-numeric: tabular-nums; }
+.bar-label { display: flex; justify-content: space-between; gap: 1rem; flex-wrap: wrap; font-family: var(--font-mono); font-size: .8rem; font-variant-numeric: tabular-nums; }
 .track { height: 22px; background: var(--ice-soft); border-radius: 3px; position: relative; overflow: hidden; }
 .fill { position: absolute; inset: 0 auto 0 0; border-radius: 3px; }
 .fill.ice { background: var(--ice); }
 .fill.amber { background: var(--amber); }
-.zoom { font-family: var(--mono); font-size: .75rem; color: var(--muted); }
+.zoom { font-family: var(--font-mono); font-size: .75rem; color: var(--muted); }
 .figures { display: grid; grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr)); gap: 1rem; }
 .fig { display: grid; gap: .15rem; }
-.fig b { font-family: var(--display); font-size: 1.6rem; font-variant-numeric: tabular-nums; }
+.fig b { font-family: var(--font-display); font-size: 1.6rem; font-variant-numeric: tabular-nums; }
 .fig span { font-size: .9rem; color: var(--muted); }
 .note { font-size: .9rem; color: var(--muted); }
 
@@ -95,19 +79,21 @@ ol.articles p { color: var(--fg); }
 table { width: 100%; border-collapse: collapse; font-size: .95rem; min-width: 30rem; }
 th, td { text-align: left; padding: .7rem .9rem; border-bottom: 1px solid var(--line); vertical-align: top; }
 tr:last-child td { border-bottom: 0; }
-th { font-family: var(--mono); font-size: .72rem; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
-.chip { display: inline-block; font-family: var(--mono); font-size: .72rem; padding: .15rem .5rem; border-radius: 99px; white-space: nowrap; }
+th { font-family: var(--font-mono); font-size: .72rem; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+.chip { display: inline-block; font-family: var(--font-mono); font-size: .72rem; padding: .15rem .5rem; border-radius: 99px; white-space: nowrap; }
 .chip.yes { background: var(--ice-soft); color: var(--ice); }
-.chip.wip { background: var(--amber-soft); color: var(--amber); }
-.chip.new { background: var(--fg); color: var(--bg); }
+.chip.wip { background: var(--amber-soft); color: var(--ink); box-shadow: inset 0 0 0 1px var(--amber); }
+.chip.new { background: var(--ink); color: var(--ground); }
 
 section.block { display: grid; gap: 1.25rem; }
 section.block > h2 { font-size: 1.6rem; font-weight: 700; }
 ul.plain { margin: 0; padding-left: 1.2rem; display: grid; gap: .5rem; }
 ul.sources { list-style: none; padding: 0; margin: 0; display: grid; gap: .45rem; font-size: .95rem; }
 
-footer { border-top: 2px solid var(--fg); padding-top: 1.5rem; display: grid; gap: .9rem; }
-.sign { font-family: var(--display); font-weight: 800; font-size: 1.5rem; color: inherit; text-decoration: none; }
+footer { border-top: 2px solid var(--ink); padding-top: 1.5rem; display: grid; gap: .9rem; }
+.sign { font-family: var(--font-display); font-weight: 800; font-size: 1.5rem; color: inherit; text-decoration: none; }
+.kvo-firma { display: inline-flex; align-items: center; gap: var(--space-2); color: var(--muted); font: 400 12px/1.45 var(--font-mono); text-decoration: none; justify-self: start; }
+.kvo-firma svg { width: 16px; height: 16px; flex: none; }
 .disclaimer { font-size: .9rem; color: var(--muted); max-width: 38rem; }
 
 @media (max-width: 480px) {
@@ -310,6 +296,7 @@ footer { border-top: 2px solid var(--fg); padding-top: 1.5rem; display: grid; ga
 
   <footer>
     <a class="sign" href="https://kvothesson.com/">Kvothesson</a>
+    <a class="kvo-firma" href="https://kvothesson.com/"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M12 2.5 20.2 7.2v9.6L12 21.5l-8.2-4.7V7.2z"/><circle cx="12" cy="12" r="2.2" fill="currentColor" stroke="none"/></svg>hecho por Kvothesson</a>
     <p class="disclaimer">El Gran Presidente es un personaje de ficción del Universo Austral. No representa a ningún gobierno, partido ni organismo. Las propuestas son reales, están abiertas a debate y se pueden copiar, mejorar o refutar libremente.</p>
     <p class="disclaimer">Todo el proyecto es público para que cualquiera pueda entender sus intenciones. Los textos se escriben con ayuda de inteligencia artificial y revisión humana: los modelos se equivocan, y lo que producen depende del modelo usado y de cuánto entienda lo que se busca. Leé las <a href="https://github.com/kvothesson/el-gran-presidente/blob/main/INTENCIONES.md" target="_blank" rel="noopener">intenciones y advertencias</a> o mirá el <a href="https://github.com/kvothesson/el-gran-presidente" target="_blank" rel="noopener">repositorio completo</a>, donde podés proponer correcciones.</p>
   </footer>

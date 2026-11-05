@@ -1,7 +1,7 @@
 """Arma la web de Los Decretos (index.html + og.png) a partir de decretos.html (formato artifact).
 
 Uso: python web/build_site.py <directorio de salida>
-Escribe index.html y og.png directamente en ese directorio. El workflow
+Escribe index.html, og.png y marca.css directamente en ese directorio. El workflow
 .github/workflows/pages.yml lo corre con `_site` y publica el resultado en
 GitHub Pages: https://kvothesson.com/el-gran-presidente/
 """
@@ -38,4 +38,5 @@ out = f'<!doctype html>\n<html lang="es">\n<head>\n{meta}{head}\nbody{{margin:0}
 site.mkdir(parents=True, exist_ok=True)
 (site / "index.html").write_text(out, encoding="utf-8", newline="\n")
 shutil.copy(HERE / "og_1200x630.png", site / "og.png")
+shutil.copy(HERE / "marca.css", site / "marca.css")
 print("ok:", site)
