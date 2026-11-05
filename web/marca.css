@@ -27,23 +27,3 @@
   --font-mono: "JetBrains Mono", ui-monospace, Consolas, monospace;
   color-scheme: dark;
 }
-@media (prefers-color-scheme: light) {
-:root {
-  --ground: #f4f8fa;
-  --surface: #ffffff;
-  --surface-raised: #e8eff3;
-  --line: #d3dfe5;
-  --line-strong: #6c8695;
-  --ink: #0a1a24;
-  --muted: #4c6474;
-  --ice: #006c8c;
-  --on-ice: #ffffff;
-  --amber: #c97a00;
-  --on-amber: #04080d;
-  --accent: #006c8c;
-  --on-accent: #ffffff;
-  --ok: #0f7a45;
-  --danger: #b3213a;
-  color-scheme: light;
-}
-}
